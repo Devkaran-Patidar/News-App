@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/logo.jpeg">
+    <link rel="stylesheet" href="./news.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+    <script src='https://kit.fontawesome.com/ac6bf4de74.js' crossorigin='anonymous'></script>
+    
+    <title>The News Hub</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img width="47px" src="./image/logo.jpeg" alt="The News Hub">
+        <h1><span> THE NEWS</span> HUB</h1>
+        </div>
+        <div class="search_bar">
+            <input type="text" id="search" placeholder="search here....">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+
+    <main>
+       <div class="flipbox">
+         <p id="flip"><i class="fa-solid fa-bars"></i></p>
+       <section id="allbuttons">
+         <div id="topbtn" class="buttons">
+            <button>Travel</button>
+            <button>Health</button>
+            <button>Sports</button>
+            <button>Science</button>
+            <button>Food</button>
+            <button>Entertainment</button>
+            <button>politics</button>
+            <button>Finance</button> 
+            <button>Education</button>
+            <button>Environment</button>
+            <button>Life_Style</button>
+            <button>Art&Culture</button>
+            <button>Fashion</button>
+            <button>Space</button>
+    </div>
+       </section>
+       </div>
+    <section id="main-news">
+        
+      <div class="news_heading">
+           <center>
+            <h1>News</h1>
+        </center>
+
+        <center><h4>search for: <span id="topic"></span></h4></center>
+
+      </div>
+      
+        <section id="container">
+
+        </section>
+    </section>
+
+    <div class="upbutton">
+        <button onclick="upbutton()"><i class="fa-solid fa-arrow-up"></i></button>
+    </div>
+    </main>
+
+    <footer>
+        <p>WWW.TheNewsHub.com | 2025 - 2030 | All Rights Resererd.</p>
+    </footer>
+</body>
+
+<script src="./news.js"></script>
+</html>
