@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # News-App
 
-=======
 # The News Hub 📰
 
 **The News Hub** is a responsive full-stack news web application that allows users to browse trending news articles, search for specific topics, and filter news by categories. The app fetches live news data from the [NewsAPI](https://newsapi.org/). It works seamlessly across desktops, tablets, and mobile devices.
