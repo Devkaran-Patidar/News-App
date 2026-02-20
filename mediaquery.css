@@ -1,0 +1,272 @@
+@media screen and (max-width:425px){
+
+    header{
+        padding: 0.5rem;
+
+        font-size: 0.5rem;
+
+    }
+
+    #allbuttons{
+        padding: 0 1rem;
+    }
+
+    #main-news{
+        padding: 0 1rem;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .search_bar{
+        padding: 0.2rem 0.1rem;
+        /* gap: 0rem; */
+    }
+
+    .search_bar input{
+        width: 20%;
+        /* font-style: normal; */
+    }
+}
+
+/* ================================================================= */
+
+/************************************
+    🔵 1200px – Large Laptops
+*************************************/
+@media (max-width: 1200px) {
+
+    header {
+        padding: 1rem 5rem;
+    }
+
+    #main-news {
+        padding-left: 18rem;
+        padding-right: 5rem;
+    }
+
+    #allbuttons {
+        width: 15rem;
+    }
+
+    .card img {
+        width: 45%;
+    }
+}
+
+
+/************************************
+    🔵 992px – Tablets Landscape
+*************************************/
+@media (max-width: 992px) {
+
+    header {
+        padding: 1rem 3rem;
+    }
+
+    #main-news {
+        padding-left: 16rem;
+        padding-right: 2rem;
+    }
+
+    #allbuttons {
+        width: 14rem;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
+
+
+/************************************
+    🟡 768px – Tablets Portrait
+*************************************/
+@media (max-width: 768px) {
+
+    header {
+        padding: 1rem 2rem;
+        /* flex-direction: column; */
+        gap: 1rem;
+        text-align: center;
+        height: auto;
+    }
+
+    /* .logo h1 {
+        display: none;
+    } */
+
+    .search_bar {
+        width: 40%;
+    }
+
+    /* Sidebar becomes horizontal top menu */
+    #allbuttons {
+        /* width: 100%; */
+        /* height: auto; */
+        /* overflow-x: scroll; */
+        /* overflow-y: hidden; */
+        /* white-space: nowrap; */
+        display: none;
+        /* padding: 0.5rem; */
+    }
+
+    /* .buttons {
+        flex-direction: row;
+        height: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        gap: 1rem;
+    } */
+
+    /* .buttons button {
+        padding: 0.5rem 1.2rem;
+        white-space: nowrap;
+    } */
+
+    #main-news {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card img {
+        width: 80%;
+    }
+
+       #allbuttons{
+    display: none;
+   }
+    #flip{
+    position: fixed;
+    top: 6rem;
+    left: 1rem;
+    z-index: 7;
+    color: #0f0f0f;
+}
+
+.flipbox:hover #allbuttons{
+    display:flex;
+    width: 30%;
+    margin-top: 5rem;
+}
+.buttons::-webkit-scrollbar{
+    display: none;
+}
+
+
+}
+
+
+/************************************
+    🟠 576px – Large Mobile
+*************************************/
+@media (max-width: 576px) {
+
+    header h1 {
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search_bar {
+        width: 50%;
+        /* gap: 0.5rem; */
+        padding:0.4 0.5rem;
+    }
+
+    .buttons button {
+        font-size: 0.9rem;
+        padding: 0.4rem 1rem;
+    }
+
+    .news_heading h1 {
+        font-size: 1.5rem;
+    }
+
+    #container {
+        padding: 0.5rem;
+    }
+
+    .card {
+        padding: 0.7rem;
+    }
+
+   #allbuttons{
+    display: none;
+   }
+    #flip{
+    position: fixed;
+    top: 6rem;
+    left: 1rem;
+    z-index: 7;
+    color: #0f0f0f;
+}
+
+.flipbox:hover #allbuttons{
+    display:flex;
+    width: 40%;
+    margin-top: 5rem;
+}
+.buttons::-webkit-scrollbar{
+    display: none;
+}
+
+
+}
+
+
+@media (max-width: 490px) {
+    .logo{
+        display: flex;
+        gap: 0.3rem;
+    }
+
+       .search_bar {
+        width: 50%;
+        /* gap: 0.5rem; */
+        padding:0.8 0.5rem;
+    }
+}
+
+/************************************
+    🔴 400px – Small Mobile
+*************************************/
+@media (max-width: 470px) {
+
+    header h1 {
+        font-size: 1.1rem;
+    }
+
+    .logo img {
+        width: 35px;
+    }
+
+    .buttons button {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.7rem;
+    }
+
+    .upbutton {
+        right: 1rem;
+        bottom: 1rem;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
