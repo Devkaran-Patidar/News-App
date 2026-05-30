@@ -63,4 +63,3 @@ the-news-hub/
 ## **License**
 
 This project is open-source and free to use.
->>>>>>> 9bca677ad600a7e76beaabd4a5462a42a2ade728
